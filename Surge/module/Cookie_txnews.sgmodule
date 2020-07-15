@@ -4,8 +4,7 @@
 
 [Script]
 # > 腾讯新闻
-腾讯新闻𝘾𝙤𝙤𝙠𝙞𝙚 = type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
-腾讯新闻𝘾𝙤𝙤𝙠𝙞𝙚 = type=http-request,pattern=^https:\/\/api\.inews\.qq\.com\/activity\/v1\/redpack\/user\/list\?activity_id,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews2.js
+腾讯新闻 = script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,type=http-request,pattern=https:\/\/api\.inews\.qq\.com\/event\/v1\/user\/event\/report\?, requires-body=true
 
 [MITM]
 hostname = api.inews.qq.com
