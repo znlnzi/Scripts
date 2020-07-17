@@ -1,0 +1,10 @@
+  
+#!name=Task - 分期乐
+#!desc=该模块适用于分期乐签到
+#!system=ios
+
+[Script]
+# 分期乐
+# 打开 APP 手动签到一次: 访问下右下角 `我的` > `乐星` > `签到`
+# `我的` > `账单点击` > `超级乐星日/天天领乐星`
+分期乐 = type=cron,cronexp=0 3 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/fenqile/fenqile.js,script-update-interval=0
