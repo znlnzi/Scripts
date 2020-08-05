@@ -1,0 +1,8 @@
+  
+#!name=Task - 京东 818手机节
+#!desc=该模块适用于京东京东 818手机节
+#!system=ios
+
+[Script]
+
+京东818手机节 = type=cron,cronexp=1 0-18/6 * * *,wake-system=1,timeout=20,script-path=https://gitee.com/lxk0301/scripts/raw/master/jd_818.js
